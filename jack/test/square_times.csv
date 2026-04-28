@@ -1,0 +1,120 @@
+Square,Type,Count,Zone,WL+0_min,WL+5_min,WL+10_min,WL+15_min,WL+20_min,WL+0_max,WL+5_max,WL+10_max,WL+15_max,WL+20_max
+10 Sacred Flask charges,acquire_count,,Altus Plateau,59s,59s,59s,59s,59s,59s,59s,59s,59s,59s
+Acquire 9 different Talismans (only 1 Sacrifial Twig),acquire_count,9,Mountaintops,13m 31s,13m 31s,13m 31s,13m 31s,13m 31s,13m 31s,13m 31s,13m 31s,13m 31s,13m 31s
+Collect 3 Painting rewards,acquire_count,3,Caelid,7m 11s,7m 11s,7m 11s,7m 11s,7m 11s,7m 11s,7m 11s,7m 11s,7m 11s,7m 11s
+Collect 6 unique Staves,acquire_count,6,Mountaintops,50m 32s,50m 32s,50m 32s,50m 32s,50m 32s,50m 32s,50m 32s,50m 32s,50m 32s,50m 32s
+Collect N unique Seals,acquire_count,4-5,Volcano Manor,18m 50s,18m 50s,18m 50s,18m 50s,18m 50s,25m 15s,25m 15s,25m 15s,25m 15s,25m 15s
+Learn 12 different sorceries,acquire_count,12,?,31m 27s,31m 27s,31m 27s,31m 27s,31m 27s,31m 27s,31m 27s,31m 27s,31m 27s,31m 27s
+Learn 14 different incantations,acquire_count,14,?,50m 58s,50m 58s,50m 58s,50m 58s,50m 58s,50m 58s,50m 58s,50m 58s,50m 58s,50m 58s
+Sacred Flask + 5,acquire_count,,Altus Plateau,59s,59s,59s,59s,59s,59s,59s,59s,59s,59s
+Spirit Ash +4 summon,acquire_count,,Haligtree,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s
+Acquire Fingerslayer Blade,acquire_fixed,,Siofra/Nokron,1m 53s,1m 53s,1m 53s,1m 53s,1m 53s,1m 53s,1m 53s,1m 53s,1m 53s,1m 53s
+Acquire Moon of Nokstella,acquire_fixed,,Ainsel/LoR,2m 58s,2m 58s,2m 58s,2m 58s,2m 58s,2m 58s,2m 58s,2m 58s,2m 58s,2m 58s
+Acquire 10 Cracked Pots,acquire_multi,10,?,35m 06s,35m 06s,35m 06s,35m 06s,35m 06s,35m 06s,35m 06s,35m 06s,35m 06s,35m 06s
+Acquire 5 Ritual Pots,acquire_multi,5,?,10m 06s,10m 06s,10m 06s,10m 06s,10m 06s,10m 06s,10m 06s,10m 06s,10m 06s,10m 06s
+Acquire both Scarseal talismans,acquire_multi,,Siofra/Nokron,3m 59s,3m 59s,3m 59s,3m 59s,3m 59s,3m 59s,3m 59s,3m 59s,3m 59s,3m 59s
+Acquire Grave and Ghost Glovewort Bell Bearings [1],acquire_multi,,?,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s
+Acquire Grave and Ghost Glovewort Bell Bearings [2],acquire_multi,,?,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s,1m 06s
+Acquire Margit's and Mohg's Shackles,acquire_multi,,Limgrave,1m 41s,1m 41s,1m 41s,1m 41s,1m 41s,1m 41s,1m 41s,1m 41s,1m 41s,1m 41s
+Acquire Smithing-stone Bell Bearing [1] and [2],acquire_multi,,Liurnia,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s
+Acquire Somberstone Bell Bearing [1] and [2],acquire_multi,,Caelid,1m 56s,1m 56s,1m 56s,1m 56s,1m 56s,1m 56s,1m 56s,1m 56s,1m 56s,1m 56s
+Collect the full Haligtree Medallion,acquire_multi,,Mountaintops,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s,1m 45s
+Kill a Black Blade Kindred,boss_any,,Mountaintops,6m 29s,5m 49s,5m 11s,5m 02s,4m 47s,6m 29s,5m 49s,5m 11s,5m 02s,4m 47s
+Kill a Dragonkin Soldier,boss_any,,Ainsel/LoR,3m 32s,3m 15s,2m 57s,2m 53s,2m 46s,3m 32s,3m 15s,2m 57s,2m 53s,2m 46s
+Kill a Fallingstar Beast,boss_any,,Altus Plateau,2m 11s,1m 53s,1m 36s,1m 32s,1m 25s,2m 11s,1m 53s,1m 36s,1m 32s,1m 25s
+Kill a Godskin Apostle,boss_any,,Mountaintops,4m 18s,3m 45s,3m 13s,3m 05s,2m 52s,4m 18s,3m 45s,3m 13s,3m 05s,2m 52s
+Kill a Magma Wyrm boss,boss_any,,Altus Plateau,2m 48s,2m 27s,2m 05s,2m,1m 52s,2m 48s,2m 27s,2m 05s,2m,1m 52s
+Kill a Red Wolf Boss,boss_any,,Altus Plateau,4m 02s,4m 02s,4m 02s,4m 02s,4m 02s,4m 02s,4m 02s,4m 02s,4m 02s,4m 02s
+Kill an Ancestor Spirit,boss_any,,Siofra/Nokron,3m 21s,3m 08s,2m 55s,2m 52s,2m 47s,3m 21s,3m 08s,2m 55s,2m 52s,2m 47s
+Kill Lansseax,boss_any,,Altus Plateau,4m 15s,4m 15s,4m 15s,4m 15s,4m 15s,4m 15s,4m 15s,4m 15s,4m 15s,4m 15s
+Kill 2 Elder Lions,boss_count,2,Mountaintops,10m 37s,10m 37s,10m 37s,10m 37s,10m 37s,10m 37s,10m 37s,10m 37s,10m 37s,10m 37s
+Kill 3 Tree spirits,boss_count,3,Altus Plateau,15m 33s,15m 33s,15m 33s,15m 33s,15m 33s,15m 33s,15m 33s,15m 33s,15m 33s,15m 33s
+Kill 4 NPC invaders,boss_count,4,?,17m 21s,17m 21s,17m 21s,17m 21s,17m 21s,17m 21s,17m 21s,17m 21s,17m 21s,17m 21s
+Kill N Bell Bearing Hunters,boss_count,2-4,Limgrave,5m 30s,5m 14s,5m,4m 56s,4m 50s,12m 18s,11m 46s,11m 18s,11m 10s,10m 58s
+Kill N Black Knife Assassins,boss_count,2-4,Altus Plateau,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s,14m 22s,14m 22s,14m 22s,14m 22s,14m 22s
+Kill N Cemetery Shades,boss_count,2-3,Limgrave,4m 34s,4m 30s,4m 24s,4m 24s,4m 22s,7m 08s,7m 02s,6m 53s,6m 53s,6m 50s
+Kill N Crucible Knights,boss_count,2-5,Limgrave,5m 56s,5m 40s,5m 24s,5m 20s,5m 14s,33m 25s,32m 53s,32m 21s,32m 13s,32m 01s
+Kill N Dragon Heart bosses,boss_count,2-5,Altus Plateau,6m 21s,5m 39s,4m 55s,4m 45s,4m 29s,24m 12s,23m 09s,22m 03s,21m 48s,21m 24s
+Kill N Duelist boss,boss_count,1-2,Limgrave,2m 24s,2m 24s,2m 24s,2m 24s,2m 24s,7m 01s,7m 01s,7m 01s,7m 01s,7m 01s
+Kill N Erdtree Avatars,boss_count,2-5,Mountaintops,23m 46s,23m 26s,23m 08s,23m 04s,22m 56s,39m 49s,38m 59s,38m 14s,38m 04s,37m 44s
+Kill N Grafted Scions,boss_count,1-3,Altus Plateau,2m 17s,2m 09s,2m 02s,2m,1m 57s,15m 36s,15m 12s,14m 51s,14m 45s,14m 36s
+Kill N Night's Cavalry,boss_count,2-4,Altus Plateau,4m 03s,3m 53s,3m 43s,3m 41s,3m 37s,8m 45s,8m 25s,8m 05s,8m 01s,7m 53s
+Kill N Omenkiller boss,boss_count,1-2,Altus Plateau,2m 35s,2m 28s,2m 21s,2m 19s,2m 17s,5m 57s,5m 43s,5m 29s,5m 25s,5m 21s
+Kill N Tibia Mariners,boss_count,2-4,Altus Plateau,6m 41s,6m 21s,6m 03s,5m 59s,5m 51s,10m 43s,10m 13s,9m 46s,9m 40s,9m 28s
+Kill N Watchdogs,boss_count,2-5,Limgrave,6m 16s,6m 16s,6m 16s,6m 16s,6m 16s,18m 18s,18m 18s,18m 18s,18m 18s,18m 18s
+Kill a Remembrance boss bow only,boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Kill a Remembrance boss colossal armaments only,boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+"Kill a Remembrance boss daggers, claws, or fists only",boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Kill a Remembrance boss hitless,boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Kill a Remembrance boss incantations only,boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Kill a Remembrance boss sorcery only,boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Kill a Remembrance boss w/ remembrance weapon only,boss_modifier,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+"Kill Astel and Astel, Stars of Darkness",boss_multi_specific,,Ainsel/LoR,19m 57s,18m 23s,16m 50s,16m 29s,15m 53s,19m 57s,18m 23s,16m 50s,16m 29s,15m 53s
+Kill 2 Deathbirds and 1 Death Rite Bird,boss_multi_type,2,Liurnia,6m 56s,6m 16s,5m 36s,5m 25s,5m 09s,6m 56s,6m 16s,5m 36s,5m 25s,5m 09s
+Kill N bosses in Altus Plateau and Mt. Gelmir,boss_region,5-7,Altus Plateau,14m 32s,14m 06s,13m 42s,13m 36s,13m 26s,20m 59s,19m 41s,18m 24s,18m 06s,17m 36s
+Kill N bosses in Caelid,boss_region,4-6,Caelid,11m 26s,10m 33s,9m 40s,9m 28s,9m 07s,18m 15s,17m 22s,16m 29s,16m 17s,15m 56s
+Kill N bosses in Limgrave,boss_region,6-8,Limgrave,12m 25s,12m 10s,11m 52s,11m 49s,11m 43s,16m 24s,16m 04s,15m 41s,15m 37s,15m 29s
+Kill N bosses in Liurnia,boss_region,4-6,Liurnia,11m 20s,11m 04s,10m 48s,10m 44s,10m 37s,17m 53s,17m 22s,16m 52s,16m 45s,16m 32s
+Kill Agheel with a +0 weapon only,boss_specific,,Limgrave,2m 40s,2m 31s,2m 21s,2m 19s,2m 15s,2m 40s,2m 31s,2m 21s,2m 19s,2m 15s
+Kill Bloodhound Knight while summoning Blaidd,boss_specific,,Limgrave,2m 05s,2m 01s,1m 56s,1m 55s,1m 54s,2m 05s,2m 01s,1m 56s,1m 55s,1m 54s
+Kill Borealis,boss_specific,,Mountaintops,4m 44s,4m 08s,3m 33s,3m 25s,3m 11s,4m 44s,4m 08s,3m 33s,3m 25s,3m 11s
+Kill Commander O'Neil,boss_specific,,Caelid,2m 52s,2m 24s,1m 56s,1m 50s,1m 39s,2m 52s,2m 24s,1m 56s,1m 50s,1m 39s
+Kill Crucible Knight and Misbegotten Warrior duo,boss_specific,,Caelid,4m 17s,4m 09s,4m 01s,3m 59s,3m 56s,4m 17s,4m 09s,4m 01s,3m 59s,3m 56s
+Kill Elemer of the Briar,boss_specific,,Altus Plateau,4m 06s,3m 51s,3m 36s,3m 33s,3m 27s,4m 06s,3m 51s,3m 36s,3m 33s,3m 27s
+Kill Fia's Champions,boss_specific,,Deeproot,23m 57s,23m 17s,22m 37s,22m 28s,22m 12s,23m 57s,23m 17s,22m 37s,22m 28s,22m 12s
+Kill Fire Giant,boss_specific,,Mountaintops,13m 56s,11m 40s,9m 25s,8m 54s,8m 01s,13m 56s,11m 40s,9m 25s,8m 54s,8m 01s
+Kill Godfrey (Gold Spirit),boss_specific,,Leyndell,10m 05s,9m 43s,9m 21s,9m 16s,9m 08s,10m 05s,9m 43s,9m 21s,9m 16s,9m 08s
+Kill Godrick while summoning Nepheli Loux,boss_specific,,Limgrave,4m 36s,4m 18s,4m,3m 56s,3m 49s,4m 36s,4m 18s,4m,3m 56s,3m 49s
+Kill Godskin Noble (Volcano Manor) without status effects,boss_specific,,Altus Plateau,3m 39s,3m 08s,2m 37s,2m 30s,2m 18s,3m 39s,3m 08s,2m 37s,2m 30s,2m 18s
+Kill Greyoll without status effects,boss_specific,,Caelid,4m 27s,4m 27s,4m 27s,4m 27s,4m 27s,4m 27s,4m 27s,4m 27s,4m 27s,4m 27s
+Kill Gurranq,boss_specific,,Dragonbarrow,7m 10s,7m 10s,7m 10s,7m 10s,7m 10s,7m 10s,7m 10s,7m 10s,7m 10s,7m 10s
+Kill Leonine Misbegotten,boss_specific,,Weeping Pen.,4m 16s,4m 09s,4m 03s,4m 02s,3m 59s,4m 16s,4m 09s,4m 03s,4m 02s,3m 59s
+Kill Limgrave Tree Sentinel with a +0 weapon only,boss_specific,,Limgrave,3m 28s,3m 02s,2m 37s,2m 31s,2m 21s,3m 28s,3m 02s,2m 37s,2m 31s,2m 21s
+Kill Loretta (Blue Spirit),boss_specific,,Caria Manor,7m 56s,7m 43s,7m 31s,7m 28s,7m 23s,7m 56s,7m 43s,7m 31s,7m 28s,7m 23s
+Kill Malenia,boss_specific,,Haligtree,7m 59s,6m 12s,4m 26s,4m 03s,3m 21s,7m 59s,6m 12s,4m 26s,4m 03s,3m 21s
+Kill Margit with 6+ parries,boss_specific,,Limgrave,3m 02s,2m 49s,2m 37s,2m 34s,2m 30s,3m 02s,2m 49s,2m 37s,2m 34s,2m 30s
+Kill Mimic Tear consumables only,boss_specific,,Siofra/Nokron,1m 51s,1m 48s,1m 45s,1m 44s,1m 43s,1m 51s,1m 48s,1m 45s,1m 44s,1m 43s
+Kill Misbegotten Crusader,boss_specific,,Consecrated,3m 44s,3m 15s,2m 46s,2m 40s,2m 28s,3m 44s,3m 15s,2m 46s,2m 40s,2m 28s
+Kill Mohg (Sewers),boss_specific,,Leyndell,11m 25s,10m 41s,9m 58s,9m 48s,9m 31s,11m 25s,10m 41s,9m 58s,9m 48s,9m 31s
+"Kill Mohg, Lord of Blood",boss_specific,,Mohgwyn,8m 56s,7m 57s,6m 59s,6m 46s,6m 23s,8m 56s,7m 57s,6m 59s,6m 46s,6m 23s
+Kill Morgott,boss_specific,,Leyndell,11m 53s,11m 21s,10m 49s,10m 42s,10m 29s,11m 53s,11m 21s,10m 49s,10m 42s,10m 29s
+Kill Putrid Crystalian trio,boss_specific,,Caelid,4m 28s,4m 28s,4m 28s,4m 28s,4m 28s,4m 28s,4m 28s,4m 28s,4m 28s,4m 28s
+Kill Radahn without summoning NPCs,boss_specific,,Caelid,6m,5m 30s,5m 01s,4m 54s,4m 43s,6m,5m 30s,5m 01s,4m 54s,4m 43s
+Kill Rennala after she summons 4 spirits,boss_specific,,Liurnia,5m 05s,4m 42s,4m 19s,4m 14s,4m 05s,5m 05s,4m 42s,4m 19s,4m 14s,4m 05s
+Kill Roundtable Knight Vyke,boss_specific,,Mountaintops,3m 23s,3m 07s,2m 52s,2m 48s,2m 42s,3m 23s,3m 07s,2m 52s,2m 48s,2m 42s
+Kill Soldier of Godrick bare fist only,boss_specific,,Limgrave,2m 11s,2m 10s,2m 09s,2m 09s,2m 08s,2m 11s,2m 10s,2m 09s,2m 09s,2m 08s
+Kill the Sleeping Golem in Leyndell,boss_specific,,Leyndell,9m 36s,9m 36s,9m 36s,9m 36s,9m 36s,9m 36s,9m 36s,9m 36s,9m 36s,9m 36s
+Kill Tree Sentinel duo,boss_specific,,Altus Plateau,3m 53s,3m 27s,3m 02s,2m 56s,2m 46s,3m 53s,3m 27s,3m 02s,2m 56s,2m 46s
+Kill Valiant Gargoyles,boss_specific,,Siofra/Nokron,6m 05s,5m 47s,5m 30s,5m 26s,5m 19s,6m 05s,5m 47s,5m 30s,5m 26s,5m 19s
+Kill Wormface,boss_specific,,Altus Plateau,4m,3m 42s,3m 24s,3m 20s,3m 12s,4m,3m 42s,3m 24s,3m 20s,3m 12s
+Kill 3 duo/trio bosses,boss_tag,3,Caelid,11m 17s,11m 17s,11m 17s,11m 17s,11m 17s,11m 17s,11m 17s,11m 17s,11m 17s,11m 17s
+Kill 4 Bosses with the word God in it,boss_tag,4,Altus Plateau,18m 05s,16m 45s,15m 25s,15m 07s,14m 36s,18m 05s,16m 45s,15m 25s,15m 07s,14m 36s
+Kill 4 NPC Bosses,boss_tag,4,Siofra/Nokron,18m 32s,18m 07s,17m 42s,17m 36s,17m 27s,18m 32s,18m 07s,17m 42s,17m 36s,17m 27s
+Kill 5 bosses that ride a horse,boss_tag,5,Altus Plateau,22m 39s,21m 32s,20m 27s,20m 12s,19m 46s,22m 39s,21m 32s,20m 27s,20m 12s,19m 46s
+Kill 5 bosses with 'tree' in their name,boss_tag,5,Mountaintops,33m 04s,31m 35s,30m 10s,29m 50s,29m 16s,33m 04s,31m 35s,30m 10s,29m 50s,29m 16s
+Dupe a Remembrance at a Mausoleum,consumable_action,,Mountaintops,1m 29s,1m 29s,1m 29s,1m 29s,1m 29s,1m 29s,1m 29s,1m 29s,1m 29s,1m 29s
+Finish off a boss with the explosive physick,consumable_action,,Weeping Pen.,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s,1m 03s
+Memory of Grace with 50k+ Runes,consumable_action,,?,40s,40s,40s,40s,40s,40s,40s,40s,40s,40s
+Use AoW Lightning Ram to kill 10 sheep,consumable_action,,Limgrave,1m 10s,1m 10s,1m 10s,1m 10s,1m 10s,1m 10s,1m 10s,1m 10s,1m 10s,1m 10s
+Complete N catacomb dungeons,dungeon_count,2-3,Limgrave,11m 14s,11m 14s,11m 14s,11m 14s,11m 14s,17m 02s,17m 02s,17m 02s,17m 02s,17m 02s
+Complete N cave or grotto dungeons,dungeon_count,2-3,Limgrave,10m 48s,10m 48s,10m 48s,10m 48s,10m 48s,16m 35s,16m 35s,16m 35s,16m 35s,16m 35s
+Complete N evergaols,dungeon_count,2-4,Limgrave,10m 02s,10m 02s,10m 02s,10m 02s,10m 02s,24m 43s,24m 43s,24m 43s,24m 43s,24m 43s
+Complete N tunnel or precipice dungeons,dungeon_count,2-3,Weeping Pen.,9m 27s,9m 27s,9m 27s,9m 27s,9m 27s,16m 08s,16m 08s,16m 08s,16m 08s,16m 08s
+Complete an Altus Plateau Hero's Grave,dungeon_specific,,Altus Plateau,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s,8m 17s
+Buy 20 Boiled Crab from Boggart,npc_action,20,Liurnia,6m 09s,6m 09s,6m 09s,6m 09s,6m 09s,6m 09s,6m 09s,6m 09s,6m 09s,6m 09s
+Give Hyetta 3 Shabriri Grapes,npc_action,,Liurnia,2m 21s,2m 21s,2m 21s,2m 21s,2m 21s,2m 21s,2m 21s,2m 21s,2m 21s,2m 21s
+Return Thop's academy key,npc_action,,?,3m 44s,3m 44s,3m 44s,3m 44s,3m 44s,3m 44s,3m 44s,3m 44s,3m 44s,3m 44s
+Take Rya's hand to Volcano Manor,npc_action,,?,1m 44s,1m 44s,1m 44s,1m 44s,1m 44s,1m 44s,1m 44s,1m 44s,1m 44s,1m 44s
+Invade and defeat Magnus the Beast Claw,npc_invasion,,Altus Plateau,2m 36s,2m 36s,2m 36s,2m 36s,2m 36s,2m 36s,2m 36s,2m 36s,2m 36s,2m 36s
+Kill the Milicent invader in Caelid,npc_invasion,,Caelid,1m 43s,1m 43s,1m 43s,1m 43s,1m 43s,1m 43s,1m 43s,1m 43s,1m 43s,1m 43s
+Kill 3 friendly NPCs (no hermit merchants),npc_kill,3,?,3m 34s,3m 34s,3m 34s,3m 34s,3m 34s,3m 34s,3m 34s,3m 34s,3m 34s,3m 34s
+Rune Level 60,passive_runes,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+30 Arcane (no rebirth or buffs),passive_stat,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+30 Faith (no rebirth or buffs),passive_stat,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+30 Int (no rebirth or buffs),passive_stat,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Smithing-stone +16 weapon,passive_stat,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Somber +9 weapon,passive_stat,,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive,passive
+Restore Godrick's Great Rune,restore_rune,,?,40s,40s,40s,40s,40s,40s,40s,40s,40s,40s
+Restore Morgott's Great Rune,restore_rune,,Leyndell,10m 10s,10m 10s,10m 10s,10m 10s,10m 10s,10m 10s,10m 10s,10m 10s,10m 10s,10m 10s
+Restore Radahn's Great Rune,restore_rune,,?,40s,40s,40s,40s,40s,40s,40s,40s,40s,40s
+Restore Rykard's Great Rune,restore_rune,,Altus Plateau,4m 07s,4m 07s,4m 07s,4m 07s,4m 07s,4m 07s,4m 07s,4m 07s,4m 07s,4m 07s

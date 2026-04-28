@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 calc_square_times.py)",
+      "Bash(python3 calc_square_times.py --sort wl0)",
+      "Bash(python3 calc_square_times.py --weapon-class Katana --stat Dexterity --sort wl0)",
+      "Bash(python3 calc_square_times.py --somber)",
+      "Bash(python3 calc_square_times.py --csv)",
+      "Bash(python calc_square_times.py --routes)"
+    ]
+  }
+}

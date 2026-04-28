@@ -1,0 +1,34 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build executable
+        run: pyinstaller JackOfAllGraves.spec --clean --noconfirm
+
+      - name: Zip release folder
+        shell: pwsh
+        run: |
+          Compress-Archive -Path dist/JackOfAllGraves -DestinationPath "JackOfAllGraves-${{ github.ref_name }}-Windows.zip"
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: JackOfAllGraves-${{ github.ref_name }}-Windows.zip
+          generate_release_notes: true

@@ -1,0 +1,21 @@
+# Build output
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Training checkpoints (large — keep only the final model)
+jack/rl/checkpoints/ckpt_*.zip
+jack/rl/checkpoints/train*.log
+
+# Local game saves (personal data)
+jack/saves/
+
+# Editor / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db

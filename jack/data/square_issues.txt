@@ -1,0 +1,61 @@
+Things to note -
+1. Kill godirck wwhile summoning nepheli has more HP than normal godrick. Prereq - kill margit
+2.Killing rennala needs prereq of getting academy key and killing red wolf
+3.Kill radahn has the preq of resting at an altus grace other than the s6 unlocked altus grace.
+4.Kill morgott should have another preq of kiling Gold spirit godfrey
+5.Kill ancestor spirit, regal has a prereq of killing radahn for nokron access and also killing nokron mimic tear. Siofra one doesn't have any pre-reqs
+6.Moghwhyn can be accesed using the teleporter in the concescrated. This teleports you to the moghwhyn area, I hope this is included in the route. Going there early is sometimes useful for the rune pickups. Don't need to  have haligtree medalion because of unlocked graces.
+7.For margit with 6 parries the leyndell one doesn't count, as it doesn't have a boss HP bar.
+8.raya lucaria red wolf has a prereq of getting the academy key.
+9.Where is the godskin apostle in altus? I think the godskin apostle from snail is not not a apostle. Check this square, its mostly wrong except for the caelid apostle.
+10.To kill fia's champions you don't need to give cursemark of death to fia's. Its for fortissax. Prereq is wrong. Also fia's champions are considered a single NPC bosss fight. Its one of the hardest fights in the game.
+11.Grafted scions are - Chapel of Anticipation,Fringefolk Hero's Grave.Stormveil Castle,Liurnia of the Lakes,Mt Gelmir. Check properly. Also chapel of anticipitaton is considered as liurnia one accesed using the teleporter at four bellfries.
+12.Soldier of Godrick fist only needs you to have ~30 level.
+13.The "God" bosses are not proper, most of them are right, but some aren't. Check properly, for e.g. the Godskin noble in liurnia divein tower is not a boss.
+14.Magma wyrm bosses are wrong, check properly theodorix is not even present etc..
+15.Crucible knights need not be bosses, the ones in stormviel and the 2 before valiant gargolyes also count. Check all properly.
+16.Dragon heart bosses, same magma wyrm issues. Wait you have theodorix here. Also one of the lansseax location is wrong as it runs away from you there. Placidusax and fortissax have preqs. Adula has a prereq of killing astel lake of rot as it runs away too.
+17.Not sure which leyndell erdtree avatar has a boss hp bar, but check it once, and does it need capital access?
+18.duo trio bosses - some of them have prereqs check properly, for example - fell twins need morgott dead.(which means they need capital access too). Why is crucible knight and mistbegotten duo not there. Why is valiant gargolye fight twice? it should be once and its prereq is nokron access. Godskin duo has a prereq of killing fire giant. Where is crystallian trio, where is miranda + omenkiller? tree sentinal duo etc.. Fix this square properly. Lots of issues.
+19.Niall -- not a horse boss, farum azula draconic tree sentinel is not a boss. Fix this square properly, lots of issues no proper prerequisites for a few.
+20.Few tree bosses need prerequisites to be added.
+21.Margit is not a remembrance boss.
+22.Make sure to have atleast 1 colossal weapon check for the colossal armament square. Similarly for others too, bows fists etc..
+23.Why is exalted flesh even there in the explosive physick square, what is this nonsense. Needs to be fixed properly.
+24.Why are all catacomb dungeon zones null, fix it add prereqs if needed.
+25.Where is soldier of godrick in cave grotto? where is the perfumer grotto boss? Doesn't sage's cave have 2 bosses? Where are  they? A lot of caves are missing, fix this.
+26.Omg the tunnel or precipe is way too incomplete, you left out a lot of tunnels, please complete. Tunnels are also a place of stones too, they are way too important.
+27.Alecto evergoal has a prereq of beating Astel Lake of Rot.
+28.Zones for bell bearings are missing. Fix it.
+29."Ghost-Glovewort Picker's Bell Bearing (1)" -- needs nokron access.
+30."Ghost-Glovewort Picker's Bell Bearing (2)" -- not really sure where it is found.
+31.Mogh's shackle is in the sewers, needs capital access.
+32.restore Rykards great rune has one more prereq, you need to kill some boss in a tunnel. Check properly.
+33.Spirit ash +4 is a travesty. what is that nonsense. Get all of the ashes, ashes like finlay can be upgraded easily via the getting the ghost glovewort at siofra, all are super easy pickups. A lot of spirit ashes are missing and a lot of glovewort pickups too. You don't even need bell bearings, whcih btw have nokron access prereq, you can just collect them.
+34.Scared flask +%num% = get scared tears. Why are golden seeds here? Also check how many are needed for each upgrade.
+35.10 Sacred Flask charges = golden seeds, not sacred tears, also check how many are needed for 10 charges.
+36.Leyndell cracked pot needs capital access. Also vendors sell cracked pots. Get those.
+37.Vendors sell ritual pots, get those too.
+38.Scarseal doesn't reqire radahn dead, it is by the dragonkin in siofra.
+39.Thops key is after killing the red wolf. Additional prereq.
+40.You don't need varres questline for Magnus.
+41.Freiendly NPC - the list is not comprehensive, where is yura. Rodreka is unkillable in this format. Also blaidd can be killed too, lots of other NPCs, but make sure you don't lock out of squares like buying 20 boiled crabs from boggart, or taking rya's hand before killing her. Check this square, you haven't covered all of them. Note that if there aren't square related to rya or boggart kill them.
+42.Need to add vendor sorceries.
+43.Need to add vendor incants.
+44.Lansseax only one location is needed, the other one doesn't let you complete the fight.
+45.For hyetta, grapes you need to collect them too. Collect the grapes, move hyetta to first second and third locations, you give her 1 grape at each location. Check properly.
+46.Kill 3 Tree spirits - includes non boss tree spirits too. Check their locations and add them.
+47.Some staves have prereqs- like getting academy key and killing red wolf -- add them properly.
+48.Painting rewards should have 2 locations per each, one to get the painting, and another to get the reward.
+49.On part of the haligtree medallion has the killing niall prereq.
+50.YOu have a lake of rot grace, no need of rannis quest to kill astel.
+51.why is NPC bosses empty, there are several - patches, mimic, stray mimic, vyke, fia's champs, esgar etc..
+52.Moon of nokstella is a small run from the lake of rot. No prereqs needed.
+53.For 20 boiled crab, you need to interact with boggart twice, once in each location.
+54.Kill 2 elder lions has no locations? - check lion gaurdians. Also make this square a num square - 2,3,4.
+55.SLeeeping golem needs the location of the trap chest in weeping peninsula.
+56.you need to add zones to seals, also there is a easy seal you can get from gurranq if you give him deathroot.
+57.killing milicent invader has no prereqs, its easy and fast.
+58.Somber and smithing squares have been removed.
+59.Why is 9 different talisman there twice?
+60.Why is milicent invader square there twice?

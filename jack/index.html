@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack of All Graves</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <div id="header">
+    <span id="header-title">Jack of All Graves</span>
+
+    <!-- Layer switch -->
+    <div id="layer-switch">
+      <button class="layer-btn active" id="btn-surface">Overworld</button>
+      <button class="layer-btn"        id="btn-underground">Underground</button>
+    </div>
+
+    <div class="header-sep"></div>
+
+    <!-- Category filter buttons (built by JS) -->
+    <div id="filter-group"></div>
+
+    <!-- Search -->
+    <input id="search" type="text" placeholder="Search map...">
+
+    <div class="header-sep"></div>
+
+    <!-- Game controls -->
+    <button id="btn-generate" class="hdr-btn primary">⊞ New Board</button>
+    <button id="btn-route"    class="hdr-btn" disabled>⚔ Compute Route</button>
+    <button id="btn-save"     class="hdr-btn">💾 Save</button>
+    <button id="btn-saves"    class="hdr-btn">📂 Saves</button>
+  </div>
+
+  <!-- ── Main ───────────────────────────────────────────────────────────── -->
+  <div id="main">
+
+    <!-- Map + Route panel -->
+    <div id="top-row">
+
+      <div id="map-container">
+        <div id="map"></div>
+        <div id="marker-detail">
+          <button class="detail-close" id="btn-close-detail">✕</button>
+        </div>
+      </div>
+
+      <div id="route-panel">
+        <div id="route-panel-header">
+          <h2>⚔ Route</h2>
+          <span id="route-summary"></span>
+          <button id="route-map-toggle" class="route-toggle-btn active" title="Show/hide route on map">📍</button>
+          <button id="route-toggle" class="route-toggle-btn" title="Collapse route panel">▼</button>
+        </div>
+        <div id="build-panel-wrap">
+          <button id="btn-build-toggle" class="build-toggle-btn">⚒ Build ▾</button>
+          <div id="build-panel" style="display:none"></div>
+        </div>
+        <div id="route-warnings"></div>
+        <div id="route-list">
+          <div class="route-empty">
+            Generate a board,<br>then click
+            <strong style="color:var(--gold)">⚔ Compute Route</strong>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Score bar — always visible -->
+    <div id="score-bar">
+      <div class="score-block">
+        <span class="score-label">P1</span>
+        <span id="p1-name" class="p1-name">Player 1</span>
+        <span id="p1-score" class="score-num p1-score">0</span>
+      </div>
+      <span class="score-sep">│</span>
+      <div class="score-block">
+        <span class="score-label">P2</span>
+        <span id="p2-name" class="p2-name">Player 2</span>
+        <span id="p2-score" class="score-num p2-score">0</span>
+      </div>
+      <span id="threat-msg"></span>
+      <button id="player-toggle" class="player-toggle"></button>
+    </div>
+
+    <!-- Board — collapsible -->
+    <div id="board-bar">
+      <div id="board-controls">
+        <button id="board-toggle">▲ Show Board</button>
+        <button id="board-expand" style="display:none">⤢ Expand</button>
+      </div>
+      <div id="board-wrap">
+        <div id="board-grid"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="modal"><div id="modal-content"></div></div>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/js/timing.js"></script>
+<script src="/js/state.js"></script>
+<script src="/js/router.js"></script>
+<script src="/js/map.js"></script>
+<script src="/js/board.js"></script>
+<script src="/js/ui.js"></script>
+<script>
+(async () => {
+  // Init modules
+  UI.init();
+  MapView.init(document.getElementById('map'));
+  Board.init(document.getElementById('board-grid'));
+
+  // ── Layer switch buttons ─────────────────────────────────────────────────
+  const btnSurface = document.getElementById('btn-surface');
+  const btnUG      = document.getElementById('btn-underground');
+
+  function switchLayer(layer) {
+    MapView.setLayer(layer);
+    btnSurface.classList.toggle('active', layer === 'surface');
+    btnUG.classList.toggle('active',      layer === 'underground');
+  }
+
+  btnSurface.addEventListener('click', () => switchLayer('surface'));
+  btnUG.addEventListener('click',      () => switchLayer('underground'));
+
+  // Route can request a layer switch (e.g. when active stop is underground)
+  State.on('map:requestLayerSwitch', layer => switchLayer(layer));
+
+  // ── Filter buttons ───────────────────────────────────────────────────────
+  const filterGroup = document.getElementById('filter-group');
+  Object.entries(MapView.CAT_CONFIG).forEach(([cat, cfg]) => {
+    const btn = document.createElement('button');
+    btn.className  = 'filter-btn'; // all off by default
+    btn.textContent= cfg.label;
+    btn.dataset.cat= cat;
+    btn.addEventListener('click', () => {
+      const on = MapView.toggleFilter(cat);
+      btn.classList.toggle('active', on);
+    });
+    filterGroup.appendChild(btn);
+  });
+
+  // ── Search ───────────────────────────────────────────────────────────────
+  document.getElementById('search').addEventListener('input', e => {
+    MapView.setSearch(e.target.value);
+  });
+
+  // ── Close marker detail ──────────────────────────────────────────────────
+  document.getElementById('btn-close-detail').addEventListener('click', () => {
+    document.getElementById('marker-detail').classList.remove('visible');
+  });
+
+  // ── Route summary line ───────────────────────────────────────────────────
+  State.on('route:ready', route => {
+    const el = document.getElementById('route-summary');
+    if (el) {
+      const runes = route.summary?.estimatedRunes || 0;
+      const time  = route.totalTime ? ` · ${route.totalTime}` : '';
+      el.textContent = `${route.stops.length} stops · ~${(runes/1000).toFixed(0)}k runes${time}`;
+    }
+  });
+
+  // ── Load data ────────────────────────────────────────────────────────────
+  try {
+    await State.loadData();
+    console.log('[App] Loaded:', {
+      markers: State.data.markers?.length,
+      squares: Object.keys(State.data.squareData?.squares || {}).length,
+      pool:    State.data.pool?.length,
+    });
+    UI.toast('Ready — S6 starting graces shown on map', 'ok');
+  } catch(e) {
+    UI.toast('Failed to load data: ' + e.message, 'err');
+    console.error('[App]', e);
+  }
+  // Route map-marker toggle
+  document.getElementById('route-map-toggle')?.addEventListener('click', function() {
+    const on = !MapView.getRouteVisible();
+    MapView.setRouteVisible(on);
+    this.classList.toggle('active', on);
+    this.classList.toggle('inactive', !on);
+  });
+
+  // Build panel toggle
+  document.getElementById('btn-build-toggle')?.addEventListener('click', () => {
+    const panel = document.getElementById('build-panel');
+    const btn   = document.getElementById('btn-build-toggle');
+    if (!panel) return;
+    const open = panel.style.display === 'none';
+    panel.style.display = open ? 'block' : 'none';
+    btn.textContent = open ? '⚒ Build ▴' : '⚒ Build ▾';
+  });
+
+
+})();
+</script>
+</body>
+</html>
